@@ -1,0 +1,8 @@
+Here is solution in my case.
+
+Open your flutter Project directory.
+Change directory to android directory in your flutter project directory cd android
+clean gradle ./gradlew clean
+Build gradle ./gradlew build or you can combine both commands with just ./gradlew clean build (Thanks @daniel for the tip)
+Now run your flutter project. If you use vscode, press F5. First time gradle running assembleDebug will take time.
+PS: Delete gradle in case of all that steps d
